@@ -5,6 +5,7 @@ import Marquee from '../components/Marquee'
 import HeroSection from '../components/HeroSection'
 import AboutSection from '../components/AboutSection'
 import WorksSection from '../components/WorksSection'
+import GallerySection from '../components/GallerySection'
 import ContactSection from '../components/ContactSection'
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <Marquee />
         <AboutSection />
         <WorksSection />
+        <GallerySection />
         <ContactSection />
       </main>
       <Footer />
